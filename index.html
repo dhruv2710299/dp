@@ -1,856 +1,2071 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mukesh Trading Co. – Wire Mesh & Perforated Sheet Stockist, Ahmedabad</title>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet">
-<style>
-*{margin:0;padding:0;box-sizing:border-box;}
-html{scroll-behavior:smooth;}
-body{font-family:'Open Sans',sans-serif;color:#333;background:#fff;}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukesh Trading Complex | Premium B2B Trading & Distribution in Ahmedabad</title>
+    <meta name="description" content="Established in 1975, Mukesh Trading Complex is Ahmedabad's premier B2B trading partner. Offering top-notch quality goods, customer-centric services, and seamless transactions at Abhishak Industrial Estate, Asarwa.">
+    <meta name="keywords" content="Mukesh Trading, Mukesh Trading Complex, B2B trading Ahmedabad, Wholesale trading Asarwa, Abhishak Industrial Estate, Ahmedabad business complex, Haripur Bus Stand">
+    <meta name="author" content="Mukesh Trading Complex">
+    
+    <!-- Google Fonts: Playfair Display (Serif Luxury) and Plus Jakarta Sans (Modern Clean) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-/* ── TOP BAR ── */
-.topbar{
-  background:#1a3a5c;
-  padding:0.45rem 0;
-  font-size:0.78rem;color:#cdd8e8;
-  display:flex;justify-content:space-between;align-items:center;
-  padding:0.45rem 5%;
-}
-.topbar a{color:#cdd8e8;text-decoration:none;}
-.topbar a:hover{color:#fff;}
-.topbar-left{display:flex;gap:2rem;flex-wrap:wrap;}
-.topbar-right{display:flex;gap:1.5rem;}
-.tb-item{display:flex;align-items:center;gap:0.4rem;}
+    <!-- Local SEO Schema Markup (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WholesaleStore",
+      "name": "Mukesh Trading Complex",
+      "image": "assets/trading_complex_exterior.png",
+      "description": "Mukesh Trading Complex is a premier B2B trading establishment in Ahmedabad. Established in 1975, we satisfactorily cater to our customers with high-quality goods, customer-centric services, and seamless transactions.",
+      "@id": "https://mukeshtrading.com/#store",
+      "url": "https://mukeshtrading.com",
+      "telephone": "+91-79-XXXXXXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "J/4, Abhishak Industrial Estate, Opposite Haripur Bus Stand, Civil Road, Asarwa",
+        "addressLocality": "Ahmedabad",
+        "addressRegion": "Gujarat",
+        "postalCode": "380016",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "23.0409",
+        "longitude": "72.6014"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.jdparts.com/mukesh-trading-asarwa"
+      ],
+      "paymentAccepted": "Cash, Cheques",
+      "currenciesAccepted": "INR",
+      "foundingDate": "1975"
+    }
+    </script>
 
-/* ── NAV ── */
-nav{
-  background:#fff;
-  box-shadow:0 2px 8px rgba(0,0,0,0.08);
-  position:sticky;top:0;z-index:200;
-  display:flex;align-items:center;justify-content:space-between;
-  padding:0 5%;
-}
-.nav-logo{display:flex;align-items:center;gap:0.85rem;text-decoration:none;padding:0.8rem 0;}
-.logo-icon{
-  width:48px;height:48px;background:#1a3a5c;border-radius:4px;
-  display:flex;align-items:center;justify-content:center;
-  font-family:'Raleway',sans-serif;font-size:1.1rem;
-  font-weight:800;color:#fff;letter-spacing:1px;
-}
-.logo-name strong{display:block;font-family:'Raleway',sans-serif;font-weight:800;font-size:1rem;color:#1a3a5c;letter-spacing:0.5px;}
-.logo-name small{font-size:0.65rem;color:#e07b00;text-transform:uppercase;letter-spacing:1.5px;font-weight:600;}
-.nav-menu{display:flex;list-style:none;height:100%;}
-.nav-menu > li{position:relative;}
-.nav-menu > li > a{
-  display:flex;align-items:center;gap:0.3rem;
-  padding:1.3rem 1.1rem;
-  font-size:0.82rem;font-weight:600;color:#333;text-decoration:none;
-  text-transform:uppercase;letter-spacing:0.8px;
-  border-bottom:3px solid transparent;
-  transition:color 0.2s,border-color 0.2s;
-  white-space:nowrap;
-}
-.nav-menu > li > a:hover,.nav-menu > li > a.active{color:#1a3a5c;border-bottom-color:#e07b00;}
-.dropdown{
-  display:none;position:absolute;top:100%;left:0;
-  background:#fff;min-width:220px;
-  box-shadow:0 6px 20px rgba(0,0,0,0.12);
-  border-top:3px solid #e07b00;z-index:300;
-}
-.nav-menu > li:hover .dropdown{display:block;}
-.dropdown a{
-  display:block;padding:0.65rem 1.2rem;
-  font-size:0.8rem;color:#444;text-decoration:none;
-  border-bottom:1px solid #f0f0f0;
-  transition:background 0.15s,color 0.15s;
-}
-.dropdown a:hover{background:#f5f8fc;color:#1a3a5c;}
-.nav-enquire{
-  background:#e07b00;color:#fff;
-  padding:0.55rem 1.4rem;border-radius:3px;
-  font-size:0.78rem;font-weight:700;letter-spacing:1px;
-  text-transform:uppercase;text-decoration:none;
-  white-space:nowrap;margin-left:1rem;
-  transition:background 0.2s;
-}
-.nav-enquire:hover{background:#c86e00;}
+    <!-- Embedded Sleek Minimalist Premium Stylesheet -->
+    <style>
+        :root {
+            --bg-dark: #09090b;       /* Luxury Deep Charcoal */
+            --bg-card: #121214;       /* Slate Obsidian */
+            --bg-light: #f9f9fa;      /* Warm Alabaster */
+            --bg-white: #ffffff;
+            --text-primary: #ffffff;  /* Light text for dark areas */
+            --text-secondary: #a1a1aa;/* Muted grey */
+            --text-dark-primary: #09090b; /* Dark text for light areas */
+            --text-dark-secondary: #52525b;
+            --accent: #27272a;        /* Graphite */
+            --accent-light: #e4e4e7;  /* Platinum */
+            --accent-glow: rgba(255, 255, 255, 0.08);
+            --border-color: rgba(255, 255, 255, 0.07);
+            --border-dark-color: rgba(9, 9, 11, 0.08);
+            --transition-smooth: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+            --transition-fast: all 0.25s ease;
+            --font-serif: "Playfair Display", Georgia, serif;
+            --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+            --container-width: 1280px;
+        }
 
-/* ── SLIDER ── */
-.slider{position:relative;overflow:hidden;height:500px;}
-.slides{display:flex;height:100%;transition:transform 0.7s ease;}
-.slide{
-  min-width:100%;height:100%;position:relative;
-  background:#0d2235;
-  display:flex;align-items:center;
-}
-/* Gradient backgrounds simulating product images */
-.slide-1{background:linear-gradient(120deg,#0d2235 40%,#1a4a6e 100%);}
-.slide-2{background:linear-gradient(120deg,#1a2e10 40%,#2d5a1a 100%);}
-.slide-3{background:linear-gradient(120deg,#2a1a0d 40%,#5c3510 100%);}
-.slide-4{background:linear-gradient(120deg,#1a0d2a 40%,#3d1a5c 100%);}
-/* Mesh pattern overlay */
-.slide::before{
-  content:'';position:absolute;inset:0;
-  background-image:
-    repeating-linear-gradient(0deg,transparent,transparent 19px,rgba(255,255,255,0.04) 20px),
-    repeating-linear-gradient(90deg,transparent,transparent 19px,rgba(255,255,255,0.04) 20px);
-}
-.slide-content{
-  position:relative;z-index:1;
-  padding:0 8%;color:#fff;max-width:600px;
-}
-.slide-tag{
-  display:inline-block;background:#e07b00;color:#fff;
-  font-size:0.72rem;font-weight:700;letter-spacing:2px;
-  text-transform:uppercase;padding:0.3rem 0.9rem;border-radius:2px;
-  margin-bottom:1.2rem;
-}
-.slide-content h2{
-  font-family:'Raleway',sans-serif;font-size:clamp(2rem,4vw,3.2rem);
-  font-weight:800;line-height:1.15;margin-bottom:1rem;
-  text-shadow:0 2px 8px rgba(0,0,0,0.3);
-}
-.slide-content p{font-size:0.95rem;opacity:0.85;line-height:1.7;margin-bottom:1.5rem;}
-.slide-btn{
-  display:inline-block;background:#e07b00;color:#fff;
-  padding:0.7rem 1.8rem;border-radius:3px;
-  font-weight:700;font-size:0.82rem;letter-spacing:1px;
-  text-transform:uppercase;text-decoration:none;
-  transition:background 0.2s;
-}
-.slide-btn:hover{background:#c86e00;}
-.slider-prev,.slider-next{
-  position:absolute;top:50%;transform:translateY(-50%);
-  background:rgba(255,255,255,0.15);border:none;cursor:pointer;
-  color:#fff;width:44px;height:44px;border-radius:50%;
-  font-size:1.2rem;display:flex;align-items:center;justify-content:center;
-  z-index:10;transition:background 0.2s;
-}
-.slider-prev:hover,.slider-next:hover{background:rgba(224,123,0,0.8);}
-.slider-prev{left:1.5rem;}.slider-next{right:1.5rem;}
-.slider-dots{
-  position:absolute;bottom:1.2rem;left:50%;transform:translateX(-50%);
-  display:flex;gap:0.5rem;z-index:10;
-}
-.dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.4);cursor:pointer;transition:background 0.2s;}
-.dot.active{background:#e07b00;}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-/* ── SECTION COMMON ── */
-section{padding:4.5rem 5%;}
-.sec-header{text-align:center;margin-bottom:3rem;}
-.sec-header h2{
-  font-family:'Raleway',sans-serif;font-size:clamp(1.6rem,3vw,2.2rem);
-  font-weight:800;color:#1a3a5c;margin-bottom:0.6rem;position:relative;display:inline-block;
-}
-.sec-header h2::after{
-  content:'';display:block;width:60px;height:3px;
-  background:#e07b00;margin:0.5rem auto 0;border-radius:2px;
-}
-.sec-header p{color:#666;font-size:0.94rem;max-width:600px;margin:0.8rem auto 0;line-height:1.7;}
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
 
-/* ── WELCOME ── */
-.welcome{background:#f7f9fc;}
-.welcome-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;max-width:1100px;margin:0 auto;}
-.welcome-text h2{
-  font-family:'Raleway',sans-serif;font-size:1.9rem;
-  font-weight:800;color:#1a3a5c;margin-bottom:0.5rem;
-}
-.welcome-text h2 span{color:#e07b00;}
-.welcome-sub{font-size:0.78rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#e07b00;margin-bottom:1rem;}
-.welcome-text p{color:#555;line-height:1.85;font-size:0.93rem;margin-bottom:1rem;}
-.welcome-highlights{display:grid;grid-template-columns:1fr 1fr;gap:0.8rem;margin-top:1.5rem;}
-.wh-item{
-  display:flex;align-items:center;gap:0.7rem;
-  font-size:0.83rem;color:#444;font-weight:600;
-}
-.wh-icon{
-  width:32px;height:32px;background:#e07b00;border-radius:50%;
-  display:flex;align-items:center;justify-content:center;
-  color:#fff;font-size:0.85rem;flex-shrink:0;
-}
-.welcome-stats{
-  display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;
-}
-.ws-card{
-  background:#fff;border:1px solid #e8eef5;border-radius:6px;
-  padding:1.5rem;text-align:center;
-  box-shadow:0 2px 12px rgba(26,58,92,0.06);
-  transition:transform 0.2s,box-shadow 0.2s;
-}
-.ws-card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(26,58,92,0.1);}
-.ws-num{font-family:'Raleway',sans-serif;font-size:2.4rem;font-weight:800;color:#e07b00;line-height:1;}
-.ws-lbl{font-size:0.75rem;text-transform:uppercase;letter-spacing:1.5px;color:#888;margin-top:0.4rem;}
+        body {
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
 
-/* ── PRODUCTS ── */
-.products{background:#fff;}
-.prod-grid{
-  display:grid;grid-template-columns:repeat(4,1fr);
-  gap:1.5rem;max-width:1100px;margin:0 auto;
-}
-.prod-card{
-  border:1px solid #e8eef5;border-radius:6px;overflow:hidden;
-  transition:transform 0.2s,box-shadow 0.2s;cursor:default;
-  background:#fff;
-}
-.prod-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(26,58,92,0.12);}
-.prod-img{
-  height:160px;display:flex;align-items:center;justify-content:center;
-  font-size:3.5rem;
-  position:relative;overflow:hidden;
-}
-.prod-img::before{
-  content:'';position:absolute;inset:0;
-  background-image:
-    repeating-linear-gradient(0deg,transparent,transparent 7px,rgba(255,255,255,0.08) 8px),
-    repeating-linear-gradient(90deg,transparent,transparent 7px,rgba(255,255,255,0.08) 8px);
-}
-.pi-1{background:linear-gradient(135deg,#1a3a5c,#2a5a8c);}
-.pi-2{background:linear-gradient(135deg,#2d5a1a,#4a8a28);}
-.pi-3{background:linear-gradient(135deg,#5c3510,#8a5520);}
-.pi-4{background:linear-gradient(135deg,#3d1a5c,#6a2e8a);}
-.pi-5{background:linear-gradient(135deg,#1a4a3a,#2a7a5a);}
-.pi-6{background:linear-gradient(135deg,#5c2020,#8a3030);}
-.pi-7{background:linear-gradient(135deg,#1a3050,#2a5080);}
-.pi-8{background:linear-gradient(135deg,#3a3010,#6a5a20);}
-.pi-9{background:linear-gradient(135deg,#102a1a,#1a4a2a);}
-.prod-body{padding:1rem 1.1rem 1.3rem;}
-.prod-body h3{
-  font-family:'Raleway',sans-serif;font-size:0.92rem;font-weight:700;
-  color:#1a3a5c;margin-bottom:0.4rem;
-}
-.prod-body p{font-size:0.77rem;color:#777;line-height:1.55;}
-.prod-link{
-  display:inline-block;margin-top:0.7rem;
-  font-size:0.73rem;font-weight:700;color:#e07b00;
-  text-transform:uppercase;letter-spacing:0.8px;text-decoration:none;
-}
-.prod-link:hover{text-decoration:underline;}
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg-dark);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2d2d30;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #4d4d50;
+        }
 
-/* ── WHY US ── */
-.whyus{background:#f7f9fc;}
-.why-grid{
-  display:grid;grid-template-columns:repeat(3,1fr);
-  gap:1.5rem;max-width:1100px;margin:0 auto;
-}
-.why-card{
-  background:#fff;border-radius:6px;padding:2rem 1.5rem;
-  border-top:4px solid #e07b00;text-align:center;
-  box-shadow:0 2px 12px rgba(26,58,92,0.06);
-  transition:transform 0.2s,box-shadow 0.2s;
-}
-.why-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(26,58,92,0.1);}
-.why-ic{font-size:2.2rem;margin-bottom:1rem;display:block;}
-.why-card h3{font-family:'Raleway',sans-serif;font-size:0.97rem;font-weight:700;color:#1a3a5c;margin-bottom:0.6rem;}
-.why-card p{font-size:0.8rem;color:#666;line-height:1.7;}
+        .custom-cursor {
+            width: 8px;
+            height: 8px;
+            background: #ffffff;
+            border-radius: 50%;
+            position: fixed;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            z-index: 10000;
+            transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+        }
+        .custom-cursor-follower {
+            width: 32px;
+            height: 32px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            position: fixed;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            z-index: 9999;
+            transition: transform 0.1s ease, border-color 0.3s ease, background-color 0.3s ease;
+        }
 
-/* ── REVIEWS ── */
-.reviews{background:#1a3a5c;}
-.reviews .sec-header h2{color:#fff;}
-.reviews .sec-header p{color:#b0c4d8;}
-.rev-grid{
-  display:grid;grid-template-columns:repeat(3,1fr);
-  gap:1.5rem;max-width:1100px;margin:0 auto;
-}
-.rev-card{
-  background:#fff;border-radius:6px;padding:1.6rem;
-  position:relative;
-}
-.rev-card::before{
-  content:'\201C';font-size:4rem;line-height:1;
-  color:#e07b00;position:absolute;top:0.6rem;left:1rem;
-  font-family:Georgia,serif;opacity:0.5;
-}
-.rev-stars{color:#e07b00;font-size:0.85rem;margin-bottom:0.7rem;letter-spacing:1px;}
-.rev-text{font-size:0.84rem;color:#444;line-height:1.7;margin-bottom:1rem;padding-top:1rem;}
-.rev-author{display:flex;align-items:center;gap:0.7rem;border-top:1px solid #eee;padding-top:0.8rem;}
-.rev-av{
-  width:36px;height:36px;border-radius:50%;
-  background:#1a3a5c;color:#fff;font-weight:700;
-  font-size:0.85rem;display:flex;align-items:center;justify-content:center;
-  flex-shrink:0;
-}
-.rev-name{font-size:0.82rem;font-weight:700;color:#1a3a5c;}
-.rev-loc{font-size:0.72rem;color:#888;}
+        .container {
+            width: 100%;
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 40px;
+        }
 
-/* ── INDUSTRIES ── */
-.industries{background:#fff;}
-.ind-grid{
-  display:grid;grid-template-columns:repeat(4,1fr);
-  gap:1rem;max-width:1100px;margin:0 auto;
-}
-.ind-card{
-  border:1px solid #e8eef5;border-radius:6px;padding:1.2rem;
-  display:flex;align-items:center;gap:0.8rem;
-  transition:border-color 0.2s,background 0.2s;
-}
-.ind-card:hover{border-color:#e07b00;background:#fffbf5;}
-.ind-ic{font-size:1.5rem;}
-.ind-card span{font-size:0.82rem;font-weight:600;color:#1a3a5c;}
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-sans);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+        }
 
-/* ── CONTACT ── */
-.contact{background:#f7f9fc;}
-.contact-wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:4rem;max-width:1100px;margin:0 auto;align-items:start;}
-.contact-info h3{
-  font-family:'Raleway',sans-serif;font-size:1.3rem;font-weight:800;
-  color:#1a3a5c;margin-bottom:1.2rem;
-}
-.c-item{display:flex;align-items:flex-start;gap:1rem;margin-bottom:1.3rem;}
-.c-ic{
-  width:40px;height:40px;background:#1a3a5c;border-radius:4px;
-  display:flex;align-items:center;justify-content:center;
-  font-size:1rem;color:#fff;flex-shrink:0;
-}
-.c-item label{display:block;font-size:0.68rem;text-transform:uppercase;letter-spacing:1.5px;color:#e07b00;margin-bottom:0.2rem;font-weight:600;}
-.c-item span,.c-item a{font-size:0.88rem;color:#444;text-decoration:none;line-height:1.6;}
-.c-item a:hover{color:#1a3a5c;}
-.wa-btn{
-  display:inline-flex;align-items:center;gap:0.6rem;
-  background:#25d366;color:#fff;
-  padding:0.75rem 1.6rem;border-radius:4px;
-  font-weight:700;font-size:0.83rem;letter-spacing:0.8px;
-  text-transform:uppercase;text-decoration:none;margin-top:0.8rem;
-  transition:background 0.2s;
-}
-.wa-btn:hover{background:#1ebe5b;}
-/* Form */
-.cform{background:#fff;border-radius:8px;padding:2rem;box-shadow:0 4px 20px rgba(26,58,92,0.08);}
-.cform h3{font-family:'Raleway',sans-serif;font-size:1.1rem;font-weight:800;color:#1a3a5c;margin-bottom:1.4rem;}
-.fg{display:flex;flex-direction:column;gap:0.35rem;margin-bottom:1rem;}
-.fg label{font-size:0.7rem;text-transform:uppercase;letter-spacing:1.2px;color:#888;font-weight:600;}
-.fg input,.fg textarea,.fg select{
-  border:1px solid #dde4ef;border-radius:4px;
-  padding:0.7rem 0.9rem;font-size:0.88rem;
-  font-family:'Open Sans',sans-serif;color:#333;
-  transition:border-color 0.2s;outline:none;background:#fff;
-}
-.fg input:focus,.fg textarea:focus,.fg select:focus{border-color:#1a3a5c;}
-.fg textarea{resize:vertical;min-height:90px;}
-.frow{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
-.btn-submit{
-  width:100%;background:#e07b00;color:#fff;
-  padding:0.88rem;border:none;border-radius:4px;
-  font-family:'Open Sans',sans-serif;
-  font-weight:700;font-size:0.88rem;letter-spacing:1px;
-  text-transform:uppercase;cursor:pointer;
-  transition:background 0.2s;margin-top:0.3rem;
-}
-.btn-submit:hover{background:#c86e00;}
+        .serif-italic {
+            font-family: var(--font-serif);
+            font-weight: 400;
+            font-style: italic;
+            letter-spacing: 0;
+        }
 
-/* ── MAP ── */
-.map-wrap{padding:0;}
-.map-wrap iframe{display:block;width:100%;height:320px;border:none;}
+        .thin {
+            font-weight: 300;
+        }
 
-/* ── FOOTER ── */
-footer{background:#0d2235;color:#b0c4d8;padding:3rem 5% 1.5rem;}
-.footer-top{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:3rem;margin-bottom:2rem;}
-.footer-brand .logo-text strong{color:#fff;font-family:'Raleway',sans-serif;font-size:1.1rem;letter-spacing:1px;}
-.footer-brand .logo-text small{color:#e07b00;}
-.footer-brand p{font-size:0.82rem;line-height:1.7;margin-top:1rem;color:#8aacca;}
-.footer-col h4{font-family:'Raleway',sans-serif;font-size:0.88rem;font-weight:700;color:#fff;margin-bottom:1rem;letter-spacing:0.5px;}
-.footer-col ul{list-style:none;}
-.footer-col ul li{margin-bottom:0.5rem;}
-.footer-col ul li a{font-size:0.8rem;color:#8aacca;text-decoration:none;transition:color 0.2s;}
-.footer-col ul li a:hover{color:#e07b00;}
-.footer-col address{font-style:normal;font-size:0.8rem;line-height:1.8;color:#8aacca;}
-.footer-col address a{color:#8aacca;text-decoration:none;transition:color 0.2s;}
-.footer-col address a:hover{color:#e07b00;}
-.footer-bottom{border-top:1px solid rgba(255,255,255,0.08);padding-top:1.2rem;text-align:center;font-size:0.75rem;color:#5a7a9a;}
+        p {
+            font-weight: 400;
+            color: var(--text-secondary);
+        }
 
-/* ── SCROLL TO TOP ── */
-#scrollTop{
-  position:fixed;bottom:2rem;right:2rem;z-index:500;
-  width:40px;height:40px;border-radius:50%;
-  background:#e07b00;color:#fff;border:none;
-  font-size:1.1rem;cursor:pointer;display:none;
-  align-items:center;justify-content:center;
-  box-shadow:0 4px 12px rgba(224,123,0,0.4);
-  transition:opacity 0.2s;
-}
-#scrollTop.show{display:flex;}
+        .lead {
+            font-size: 1.25rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
 
-/* ── RESPONSIVE ── */
-@media(max-width:900px){
-  .topbar{font-size:0.72rem;}
-  .nav-menu{display:none;}
-  .nav-logo{padding:0.7rem 0;}
-  .slider{height:320px;}
-  .welcome-grid,.contact-wrap{grid-template-columns:1fr;gap:2rem;}
-  .welcome-stats{grid-template-columns:1fr 1fr;}
-  .prod-grid{grid-template-columns:1fr 1fr;}
-  .why-grid{grid-template-columns:1fr;}
-  .rev-grid{grid-template-columns:1fr;}
-  .ind-grid{grid-template-columns:1fr 1fr;}
-  .footer-top{grid-template-columns:1fr;}
-  section{padding:3rem 5%;}
-}
-</style>
+        .section-tag {
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            display: inline-block;
+            margin-bottom: 12px;
+            position: relative;
+            padding-left: 20px;
+        }
+        .section-tag::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 10px;
+            height: 1px;
+            background-color: var(--text-secondary);
+        }
+
+        .section-header {
+            margin-bottom: 60px;
+            max-width: 700px;
+        }
+        .section-header h2 {
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+        .section-header.centered {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .section-subtitle {
+            margin-top: 16px;
+            font-size: 1.15rem;
+        }
+
+        .btn-minimal {
+            display: inline-block;
+            padding: 10px 24px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            background: transparent;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            letter-spacing: 0.02em;
+            cursor: pointer;
+            transition: var(--transition-fast);
+        }
+        .btn-minimal:hover {
+            background: var(--text-primary);
+            color: var(--bg-dark);
+            border-color: var(--text-primary);
+        }
+
+        .btn-premium {
+            display: inline-block;
+            padding: 16px 36px;
+            background: var(--text-primary);
+            color: var(--bg-dark);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.95rem;
+            letter-spacing: 0.02em;
+            border: 1px solid var(--text-primary);
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-premium:hover {
+            background: transparent;
+            color: var(--text-primary);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-text {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.95rem;
+            transition: var(--transition-fast);
+        }
+        .btn-text i {
+            transition: transform 0.3s ease;
+        }
+        .btn-text:hover i {
+            transform: translateX(6px);
+        }
+
+        .main-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            border-bottom: 1px solid var(--border-color);
+            background-color: rgba(9, 9, 11, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            transition: var(--transition-smooth);
+        }
+        .main-header.scrolled {
+            padding: 10px 0;
+            background-color: rgba(9, 9, 11, 0.95);
+            border-bottom-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+        .logo-m {
+            font-family: var(--font-serif);
+            font-size: 1.8rem;
+            font-weight: 900;
+            background: var(--text-primary);
+            color: var(--bg-dark);
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 2px;
+        }
+        .logo-text {
+            font-size: 1.1rem;
+            font-weight: 800;
+            letter-spacing: 0.1em;
+        }
+
+        .nav-menu ul {
+            display: flex;
+            list-style: none;
+            gap: 36px;
+        }
+        .nav-link {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            position: relative;
+            padding: 6px 0;
+            transition: var(--transition-fast);
+        }
+        .nav-link:hover, .nav-link.active {
+            color: var(--text-primary);
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background-color: var(--text-primary);
+            transition: var(--transition-fast);
+        }
+        .nav-link:hover::after, .nav-link.active::after {
+            width: 100%;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .mobile-nav-toggle {
+            display: none;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            flex-direction: column;
+            gap: 6px;
+            width: 30px;
+        }
+        .mobile-nav-toggle .bar {
+            width: 100%;
+            height: 1.5px;
+            background-color: var(--text-primary);
+            transition: var(--transition-fast);
+        }
+
+        .hero-section {
+            position: relative;
+            padding-top: 180px;
+            padding-bottom: 120px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+        .hero-bg-accent {
+            position: absolute;
+            top: -200px;
+            right: -200px;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0) 70%);
+            pointer-events: none;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 80px;
+            align-items: center;
+        }
+
+        .hero-content h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+            margin-top: 20px;
+            margin-bottom: 24px;
+            line-height: 1.1;
+        }
+
+        .hero-description {
+            font-size: 1.15rem;
+            line-height: 1.7;
+            margin-bottom: 40px;
+            max-width: 580px;
+        }
+
+        .hero-actions-group {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 40px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 30px;
+        }
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+        }
+        .stat-num {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--text-primary);
+        }
+        .stat-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+
+        .hero-image-wrapper {
+            position: relative;
+            width: 100%;
+        }
+        .image-reveal-mask {
+            width: 100%;
+            height: 550px;
+            overflow: hidden;
+            position: relative;
+            border: 1px solid var(--border-color);
+        }
+        .hero-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: grayscale(100%) contrast(1.1);
+            transition: var(--transition-smooth);
+        }
+        .hero-image-wrapper:hover .hero-img {
+            filter: grayscale(0%) contrast(1.0);
+            transform: scale(1.03);
+        }
+
+        .image-badge {
+            position: absolute;
+            bottom: -20px;
+            left: -20px;
+            background: var(--bg-white);
+            color: var(--bg-dark);
+            padding: 24px 30px;
+            border: 1px solid var(--accent-light);
+            display: flex;
+            flex-direction: column;
+            z-index: 10;
+        }
+        .badge-title {
+            font-size: 1.1rem;
+            font-weight: 800;
+            letter-spacing: 0.1em;
+        }
+        .badge-subtitle {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-dark-secondary);
+            margin-top: 2px;
+        }
+
+        .legacy-section {
+            padding: 120px 0;
+            background-color: var(--bg-light);
+            color: var(--bg-dark);
+        }
+        .legacy-section .section-tag {
+            color: var(--text-dark-secondary);
+        }
+        .legacy-section .section-tag::before {
+            background-color: var(--text-dark-secondary);
+        }
+
+        .legacy-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 80px;
+        }
+
+        .legacy-text-block p {
+            color: var(--text-dark-secondary);
+            margin-bottom: 24px;
+        }
+
+        .quote-box {
+            border-left: 2px solid var(--bg-dark);
+            padding-left: 30px;
+            margin: 40px 0 20px;
+        }
+        .quote-box blockquote {
+            font-family: var(--font-serif);
+            font-size: 1.4rem;
+            font-style: italic;
+            line-height: 1.5;
+            margin-bottom: 12px;
+        }
+        .quote-box cite {
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            font-style: normal;
+            color: var(--text-dark-primary);
+        }
+
+        .legacy-feature-cards {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: var(--bg-white);
+            padding: 36px;
+            border: 1px solid rgba(9, 9, 11, 0.06);
+            transition: var(--transition-smooth);
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(9, 9, 11, 0.15);
+            box-shadow: 0 20px 40px rgba(9, 9, 11, 0.03);
+        }
+
+        .card-icon {
+            font-size: 1.8rem;
+            color: var(--bg-dark);
+            margin-bottom: 20px;
+        }
+        .feature-card h3 {
+            font-size: 1.3rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        .feature-card p {
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .offerings-section {
+            padding: 120px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .offerings-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+        }
+
+        .offering-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            padding: 48px 40px;
+            transition: var(--transition-smooth);
+            display: flex;
+            flex-direction: column;
+        }
+        .offering-box:hover {
+            border-color: rgba(255, 255, 255, 0.25);
+            transform: translateY(-5px);
+        }
+
+        .offering-header {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 24px;
+        }
+        .offering-num {
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+        .offering-box h3 {
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+
+        .offering-box p {
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+            flex-grow: 1;
+        }
+
+        .offering-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 24px;
+        }
+        .offering-list li {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .offering-list li i {
+            font-size: 0.75rem;
+            color: #ffffff;
+        }
+
+        .showcase-section {
+            padding: 120px 0;
+        }
+
+        .showcase-header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 60px;
+        }
+        .showcase-header-row .section-header {
+            margin-bottom: 0;
+        }
+
+        .gallery-filters {
+            display: flex;
+            gap: 10px;
+        }
+
+        .filter-btn {
+            background: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 10px 20px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: var(--transition-fast);
+        }
+        .filter-btn:hover, .filter-btn.active {
+            color: var(--text-primary);
+            border-color: var(--text-primary);
+        }
+
+        .showcase-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+        }
+
+        .showcase-item {
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            overflow: hidden;
+            position: relative;
+            border: 1px solid var(--border-color);
+            transition: var(--transition-smooth);
+        }
+
+        .showcase-item.hide {
+            display: none;
+        }
+
+        .showcase-image-container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: grayscale(100%) contrast(1.1);
+            transition: var(--transition-smooth);
+        }
+        .showcase-item:hover .gallery-img {
+            filter: grayscale(0%) contrast(1.0);
+            transform: scale(1.05);
+        }
+
+        .mock-image-fallback {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #18181b 0%, #09090b 100%);
+            color: var(--text-secondary);
+        }
+        .fallback-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        .icon-large {
+            font-size: 2.5rem;
+            color: rgba(255, 255, 255, 0.2);
+        }
+
+        .showcase-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(9,9,11,0) 30%, rgba(9,9,11,0.95) 100%);
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            opacity: 0.85;
+            transition: var(--transition-smooth);
+        }
+        .showcase-item:hover .showcase-overlay {
+            opacity: 1;
+        }
+
+        .showcase-overlay .category {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+        .showcase-overlay h3 {
+            font-size: 1.6rem;
+            font-weight: 800;
+            margin-bottom: 4px;
+        }
+        .showcase-overlay p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        .lightbox-trigger, .lightbox-trigger-disabled {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+        .lightbox-trigger i {
+            font-size: 0.75rem;
+        }
+        .lightbox-trigger-disabled {
+            color: var(--text-secondary);
+            cursor: not-allowed;
+        }
+
+        .contact-section {
+            padding: 120px 0;
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border-color);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            margin-bottom: 80px;
+        }
+
+        .contact-intro {
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .info-blocks {
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+        }
+
+        .info-block {
+            display: flex;
+            gap: 20px;
+        }
+
+        .info-icon {
+            font-size: 1.3rem;
+            color: #ffffff;
+            width: 24px;
+        }
+
+        .info-text h4 {
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+
+        .info-text p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .highlight-block {
+            border-left: 2px solid #ffffff;
+            padding-left: 20px;
+        }
+
+        .form-wrapper {
+            background: var(--bg-dark);
+            border: 1px solid var(--border-color);
+            padding: 48px;
+            position: relative;
+        }
+        .form-wrapper h3 {
+            font-size: 1.8rem;
+            margin-bottom: 6px;
+        }
+        .form-sub {
+            font-size: 0.9rem;
+            margin-bottom: 36px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+        .form-group label {
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+        }
+        .form-group input, .form-group textarea {
+            background: transparent;
+            border: 1px solid var(--border-color);
+            padding: 14px 18px;
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            font-size: 0.95rem;
+            width: 100%;
+            outline: none;
+            transition: var(--transition-fast);
+        }
+        .form-group input:focus, .form-group textarea:focus {
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .form-group.error input, .form-group.error textarea {
+            border-color: #ef4444;
+        }
+        .error-msg {
+            display: none;
+            font-size: 0.75rem;
+            color: #ef4444;
+            font-weight: 600;
+        }
+        .form-group.error .error-msg {
+            display: block;
+        }
+
+        .btn-submit {
+            width: 100%;
+            background: var(--text-primary);
+            color: var(--bg-dark);
+            border: 1px solid var(--text-primary);
+            padding: 16px;
+            font-family: var(--font-sans);
+            font-weight: 700;
+            font-size: 0.95rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: var(--transition-smooth);
+        }
+        .btn-submit:hover {
+            background: transparent;
+            color: var(--text-primary);
+        }
+
+        .form-success-alert {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg-dark);
+            padding: 48px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: var(--transition-smooth);
+            z-index: 5;
+        }
+        .form-success-alert.show {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .success-icon {
+            font-size: 3rem;
+            color: #ffffff;
+            margin-bottom: 24px;
+        }
+        .form-success-alert h4 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+        }
+        .form-success-alert p {
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+            max-width: 320px;
+        }
+        .btn-reset {
+            background: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 10px 24px;
+            font-family: var(--font-sans);
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .btn-reset:hover {
+            border-color: var(--text-primary);
+        }
+
+        .map-wrapper {
+            position: relative;
+            border: 1px solid var(--border-color);
+            margin-top: 80px;
+        }
+
+        .map-overlay-card {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            background: var(--bg-dark);
+            border: 1px solid var(--border-color);
+            padding: 24px;
+            display: flex;
+            gap: 20px;
+            max-width: 350px;
+            z-index: 10;
+        }
+        .map-card-icon {
+            font-size: 1.5rem;
+            color: #ffffff;
+            margin-top: 2px;
+        }
+        .map-overlay-card h5 {
+            font-size: 0.95rem;
+            font-weight: 800;
+            margin-bottom: 4px;
+        }
+        .map-overlay-card .coords {
+            font-size: 0.8rem;
+            font-family: monospace;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+        .directions-link {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #ffffff;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .mock-map {
+            width: 100%;
+            height: 450px;
+            background-color: #0b0b0d;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .map-grid-pattern {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-size: 40px 40px;
+            background-image: 
+                linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+        }
+
+        .map-marker {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 55%;
+        }
+        .pin {
+            width: 14px;
+            height: 14px;
+            background-color: #ffffff;
+            border-radius: 50% 50% 50% 0;
+            transform: rotate(-45deg);
+            position: absolute;
+            left: 3px;
+            top: 3px;
+        }
+        .pulse {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            left: -10px;
+            top: -10px;
+            animation: pulsate 2s ease-out infinite;
+            opacity: 0;
+        }
+        @keyframes pulsate {
+            0% { transform: scale(0.1); opacity: 0.0; }
+            50% { opacity: 1.0; }
+            100% { transform: scale(1.2); opacity: 0.0; }
+        }
+
+        .map-label {
+            position: absolute;
+            top: 52%;
+            left: 57%;
+            font-size: 0.85rem;
+            font-weight: 800;
+            letter-spacing: 0.05em;
+            color: #ffffff;
+        }
+        .map-landmark-label {
+            position: absolute;
+            top: 56%;
+            left: 57%;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .map-instructions {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: rgba(255, 255, 255, 0.15);
+        }
+
+        .main-footer {
+            background: #050507;
+            border-top: 1px solid var(--border-color);
+            padding: 80px 0 0;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1.5fr;
+            gap: 80px;
+            margin-bottom: 60px;
+        }
+
+        .footer-brand .logo {
+            margin-bottom: 20px;
+        }
+        .footer-moto {
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+            max-width: 320px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+        }
+        .social-links a {
+            width: 36px;
+            height: 36px;
+            border: 1px solid var(--border-color);
+            border-radius: 50%;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: var(--transition-fast);
+        }
+        .social-links a:hover {
+            color: var(--text-primary);
+            border-color: var(--text-primary);
+            background: var(--accent);
+        }
+
+        .footer-links h4, .footer-contact h4 {
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-primary);
+            margin-bottom: 24px;
+        }
+
+        .footer-links ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .footer-links ul a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            transition: var(--transition-fast);
+        }
+        .footer-links ul a:hover {
+            color: var(--text-primary);
+        }
+
+        .footer-contact p {
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+            display: flex;
+            gap: 12px;
+            line-height: 1.5;
+        }
+        .footer-contact p i {
+            margin-top: 4px;
+            width: 14px;
+            color: var(--text-secondary);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border-color);
+            padding: 30px 0;
+        }
+        .bottom-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .bottom-flex p {
+            font-size: 0.8rem;
+        }
+
+        .lightbox-modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(9, 9, 11, 0.98);
+        }
+
+        .lightbox-content {
+            margin: auto;
+            display: block;
+            max-width: 80%;
+            max-height: 70vh;
+            object-fit: contain;
+            border: 1px solid var(--border-color);
+            animation: zoom 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes zoom {
+            from { transform: scale(0.9); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        .close-lightbox {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            color: #ffffff;
+            font-size: 40px;
+            font-weight: 300;
+            cursor: pointer;
+            transition: var(--transition-fast);
+        }
+        .close-lightbox:hover {
+            color: var(--text-secondary);
+        }
+
+        .lightbox-caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            text-align: center;
+            color: var(--text-secondary);
+            padding: 20px 0;
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        @media (max-width: 1024px) {
+            .container {
+                padding: 0 30px;
+            }
+            
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 60px;
+                text-align: center;
+            }
+            .hero-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .hero-description {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .hero-actions-group {
+                justify-content: center;
+            }
+            .hero-stats {
+                justify-content: center;
+                width: 100%;
+            }
+            
+            .image-reveal-mask {
+                height: 450px;
+            }
+            .image-badge {
+                left: 20px;
+                bottom: -10px;
+            }
+            
+            .legacy-grid {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+            
+            .offerings-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            html {
+                font-size: 14px;
+            }
+            
+            .custom-cursor, .custom-cursor-follower {
+                display: none !important;
+            }
+            
+            .header-container {
+                padding: 0 20px;
+            }
+            
+            .mobile-nav-toggle {
+                display: flex;
+                z-index: 1001;
+            }
+            
+            .nav-menu {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 80%;
+                height: 100vh;
+                background: #0d0d0f;
+                z-index: 1000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: var(--transition-smooth);
+                border-left: 1px solid var(--border-color);
+            }
+            .nav-menu.open {
+                right: 0;
+            }
+            
+            .nav-menu ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+            }
+            .nav-link {
+                font-size: 1.5rem;
+            }
+            
+            .mobile-nav-toggle.active .bar:nth-child(1) {
+                transform: translateY(7.5px) rotate(45deg);
+            }
+            .mobile-nav-toggle.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+            .mobile-nav-toggle.active .bar:nth-child(3) {
+                transform: translateY(-7.5px) rotate(-45deg);
+            }
+            
+            .header-actions .btn-minimal {
+                display: none;
+            }
+            
+            .hero-content h1 {
+                font-size: 3rem;
+            }
+            
+            .section-header h2 {
+                font-size: 2.2rem;
+            }
+            
+            .offerings-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .showcase-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .showcase-header-row {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+            }
+            
+            .gallery-filters {
+                overflow-x: auto;
+                width: 100%;
+                padding-bottom: 10px;
+            }
+            .filter-btn {
+                white-space: nowrap;
+            }
+            
+            .form-wrapper {
+                padding: 30px;
+            }
+            
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .bottom-flex {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+        }
+    </style>
 </head>
 <body>
 
-<!-- TOP BAR -->
-<div class="topbar">
-  <div class="topbar-left">
-    <div class="tb-item">📞 <a href="tel:+919879211012">+91 98792 11012</a></div>
-    <div class="tb-item">📱 <a href="tel:+919429356522">+91 94293 56522</a></div>
-    <div class="tb-item">✉ <a href="mailto:mukeshtr16@yahoo.com">mukeshtr16@yahoo.com</a></div>
-  </div>
-  <div class="topbar-right">
-    <div class="tb-item">🕒 Mon–Sat: 9:00 AM – 7:00 PM</div>
-  </div>
-</div>
+    <!-- Dynamic Custom Cursor (Premium Micro-interaction) -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
 
-<!-- NAV -->
-<nav>
-  <a class="nav-logo" href="#home">
-    <div class="logo-icon">MTC</div>
-    <div class="logo-name">
-      <strong>Mukesh Trading Co.</strong>
-      <small>Wire Mesh &amp; Industrial Stockist</small>
-    </div>
-  </a>
-  <ul class="nav-menu">
-    <li><a href="#home" class="active">Home</a></li>
-    <li><a href="#about">About Us</a></li>
-    <li>
-      <a href="#products">Products ▾</a>
-      <div class="dropdown">
-        <a href="#products">SS Wire Mesh Jali</a>
-        <a href="#products">Perforated Sheet</a>
-        <a href="#products">Welded Wire Mesh</a>
-        <a href="#products">Crimped Wire Mesh</a>
-        <a href="#products">Expanded Metals</a>
-        <a href="#products">Bearings</a>
-        <a href="#products">CI Pulleys</a>
-        <a href="#products">Pedestals</a>
-        <a href="#products">Buckets</a>
-      </div>
-    </li>
-    <li><a href="#industries">Industries</a></li>
-    <li><a href="#contact">Contact Us</a></li>
-  </ul>
-  <a href="#contact" class="nav-enquire">Send Enquiry</a>
-</nav>
-
-<!-- SLIDER -->
-<div class="slider" id="home">
-  <div class="slides" id="slides">
-    <div class="slide slide-1">
-      <div class="slide-content">
-        <span class="slide-tag">Premium Stock</span>
-        <h2>SS Wire Mesh &amp; Industrial Jali</h2>
-        <p>Stainless steel woven wire mesh in SS 304 &amp; 316 grades. Ready stock in all standard mesh counts and wire diameters.</p>
-        <a href="#products" class="slide-btn">View Products</a>
-      </div>
-    </div>
-    <div class="slide slide-2">
-      <div class="slide-content">
-        <span class="slide-tag">All Metals Available</span>
-        <h2>Metal Perforated Sheets</h2>
-        <p>Round, square and slotted hole perforated sheets in SS, GI, MS &amp; aluminium. Cut-to-size available on request.</p>
-        <a href="#contact" class="slide-btn">Get a Quote</a>
-      </div>
-    </div>
-    <div class="slide slide-3">
-      <div class="slide-content">
-        <span class="slide-tag">Industrial Components</span>
-        <h2>Bearings, Pulleys &amp; Pedestals</h2>
-        <p>Complete range of bearings, CI pulleys and plummer block pedestals for industrial machinery — ready to dispatch.</p>
-        <a href="#products" class="slide-btn">Explore Range</a>
-      </div>
-    </div>
-    <div class="slide slide-4">
-      <div class="slide-content">
-        <span class="slide-tag">Est. · Asarwa, Ahmedabad</span>
-        <h2>Your Trusted Wire Mesh Stockist</h2>
-        <p>Decades of experience serving Gujarat's industrial sector from our warehouse at Opp. Haripura Bus Stand, Asarwa.</p>
-        <a href="#about" class="slide-btn">About Us</a>
-      </div>
-    </div>
-  </div>
-  <button class="slider-prev" onclick="moveSlide(-1)">&#8249;</button>
-  <button class="slider-next" onclick="moveSlide(1)">&#8250;</button>
-  <div class="slider-dots" id="dots"></div>
-</div>
-
-<!-- WELCOME / ABOUT -->
-<section class="welcome" id="about">
-  <div class="welcome-grid">
-    <div class="welcome-text">
-      <div class="welcome-sub">Welcome to</div>
-      <h2>Mukesh <span>Trading Co.</span></h2>
-      <p>
-        Located at G-4, Abhishak Industrial Estate, Opposite Haripura Bus Stand, Civil Road, Asarwa,
-        Ahmedabad – 380 016, <strong>Mukesh Trading Co.</strong> is one of the most trusted stockists
-        and suppliers of wire mesh and industrial products in Gujarat.
-      </p>
-      <p>
-        With decades of experience, we stock a wide range of Stainless Steel Wire Mesh, Metal
-        Perforated Sheets, Welded Mesh, Crimped Mesh, Bearings, CI Pulleys and Pedestals —
-        serving factories and fabricators with fast availability and competitive pricing.
-      </p>
-      <div class="welcome-highlights">
-        <div class="wh-item"><div class="wh-icon">✓</div> Ready Stock Available</div>
-        <div class="wh-item"><div class="wh-icon">✓</div> All Metal Grades</div>
-        <div class="wh-item"><div class="wh-icon">✓</div> Custom Cut-to-Size</div>
-        <div class="wh-item"><div class="wh-icon">✓</div> Same-Day Dispatch</div>
-        <div class="wh-item"><div class="wh-icon">✓</div> Competitive Pricing</div>
-        <div class="wh-item"><div class="wh-icon">✓</div> Pan-India Delivery</div>
-      </div>
-    </div>
-    <div class="welcome-stats">
-      <div class="ws-card"><div class="ws-num">40+</div><div class="ws-lbl">Years in Business</div></div>
-      <div class="ws-card"><div class="ws-num">200+</div><div class="ws-lbl">Product Varieties</div></div>
-      <div class="ws-card"><div class="ws-num">1000+</div><div class="ws-lbl">Happy Clients</div></div>
-      <div class="ws-card"><div class="ws-num">100%</div><div class="ws-lbl">Quality Assured</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- PRODUCTS -->
-<section class="products" id="products">
-  <div class="sec-header">
-    <h2>Our Product Range</h2>
-    <p>We stock a comprehensive range of wire mesh and industrial components to meet all your requirements.</p>
-  </div>
-  <div class="prod-grid">
-    <div class="prod-card">
-      <div class="prod-img pi-1">⬡</div>
-      <div class="prod-body">
-        <h3>SS Wire Mesh Jali</h3>
-        <p>Plain &amp; twill weave in SS 304/316. Rolls, sheets &amp; cut pieces available.</p>
-        <a class="prod-link" href="#contact">Enquire Now →</a>
-      </div>
-    </div>
-    <div class="prod-card">
-      <div class="prod-img pi-2">▦</div>
-      <div class="prod-body">
-        <h3>Metal Perforated Sheet</h3>
-        <p>Round, square, slotted holes in SS, GI, MS &amp; aluminium. Standard &amp; custom sizes.</p>
-        <a class="prod-link" href="#contact">Enquire Now →</a>
-      </div>
-    </div>
-    <div class="prod-card">
-      <div class="prod-img pi-3">◻</div>
-      <div class="prod-body">
-        <h3>Welded Wire Mesh</h3>
-        <p>GI &amp; SS welded mesh for fencing, reinforcement &amp; industrial screening.</p>
-        <a class="prod-link" href="#contact">Enquire Now →</a>
-      </div>
-    </div>
-    <div class="prod-card">
-      <div class="prod-img pi-4">◈</div>
-      <div class="prod-body">
-        <h3>Crimped Wire Mesh</h3>
-        <p>Pre-crimped screens for vibrating &amp; separation equipment in heavy industries.</p>
-        <a class="prod-link" href="#contact">Enquire Now →</a>
-      </div>
-    </div>
-    <div class="prod-card">
-      <div class="prod-img pi-5">⚙️</div>
-      <div class="prod-body">
-        <h3>Bearings</h3>
-        <p>Ball, roller &amp; pillow block bearings in all sizes. Branded &amp; standard quality.</p>
-        <a class="prod-link" href="#contact">Enquire Now →</a>
-      </div>
-    </div>
-    <div class="prod-card">
-      <div class="prod-img pi-6">🔵</div>
-      <div class="prod-body">
-        <h3>CI Pulleys</h3>
-        <p>Cast iron pulleys in all bore sizes &amp; face widths for belt-driven machinery.</p>
-        <a class="prod-link" href="#contact">Enquire Now →</a>
-      </div>
-    </div>
-    <div class="prod-card">
-      <div class="prod-img pi-7">🔩</div>
-      <div class="prod-body">
-        <h3>Pedestals / Plummer Blocks</h3>
-        <p>CI &amp; steel bearing housings. All standard sizes in ready stock.</p>
-        <a class="prod-link" href="#contact">Enquire Now →</a>
-      </div>
-    </div>
-    <div class="prod-card">
-      <div class="prod-img pi-8">◬</div>
-      <div class="prod-body">
-        <h3>Expanded Metals</h3>
-        <p>Diamond pattern sheets in SS, GI &amp; aluminium for guards, walkways &amp; facades.</p>
-        <a class="prod-link" href="#contact">Enquire Now →</a>
-      </div>
-    </div>
-    <div class="prod-card">
-      <div class="prod-img pi-9">🪣</div>
-      <div class="prod-body">
-        <h3>Industrial Buckets</h3>
-        <p>Wire mesh &amp; metal buckets for industrial handling and filtration applications.</p>
-        <a class="prod-link" href="#contact">Enquire Now →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- WHY US -->
-<section class="whyus">
-  <div class="sec-header">
-    <h2>Why Choose Us</h2>
-    <p>Trusted by hundreds of clients across Gujarat for quality, availability and service.</p>
-  </div>
-  <div class="why-grid">
-    <div class="why-card">
-      <span class="why-ic">🏆</span>
-      <h3>40+ Years of Trust</h3>
-      <p>Decades of experience in the wire mesh and industrial components business, serving manufacturers and fabricators across Gujarat and beyond.</p>
-    </div>
-    <div class="why-card">
-      <span class="why-ic">📦</span>
-      <h3>Large Ready Stock</h3>
-      <p>Extensive inventory of standard products at our Asarwa warehouse ensures fast availability — most orders are dispatched the same day or next day.</p>
-    </div>
-    <div class="why-card">
-      <span class="why-ic">⚡</span>
-      <h3>Fast Turnaround</h3>
-      <p>We understand production timelines. Quick quotation, prompt dispatch and reliable delivery keep your operations running without delays.</p>
-    </div>
-    <div class="why-card">
-      <span class="why-ic">✂️</span>
-      <h3>Custom Cut-to-Size</h3>
-      <p>Need non-standard dimensions? We provide cut-to-size perforated sheets and wire mesh to match your exact specifications at no extra hassle.</p>
-    </div>
-    <div class="why-card">
-      <span class="why-ic">💰</span>
-      <h3>Competitive Pricing</h3>
-      <p>Our direct manufacturer relationships and bulk purchasing allow us to offer the best market prices without compromising on quality.</p>
-    </div>
-    <div class="why-card">
-      <span class="why-ic">📞</span>
-      <h3>Personal Service</h3>
-      <p>Reach us directly on call or WhatsApp for quick queries. Our experienced team provides honest guidance to help you select the right product every time.</p>
-    </div>
-  </div>
-</section>
-
-<!-- INDUSTRIES -->
-<section class="industries" id="industries">
-  <div class="sec-header">
-    <h2>Industries We Serve</h2>
-    <p>Our products are used by manufacturers across a wide range of industries throughout India.</p>
-  </div>
-  <div class="ind-grid">
-    <div class="ind-card"><span class="ind-ic">🏭</span><span>Plastic &amp; Rubber</span></div>
-    <div class="ind-card"><span class="ind-ic">💊</span><span>Pharmaceuticals</span></div>
-    <div class="ind-card"><span class="ind-ic">⚗️</span><span>Chemicals</span></div>
-    <div class="ind-card"><span class="ind-ic">🪨</span><span>Cement &amp; Mining</span></div>
-    <div class="ind-card"><span class="ind-ic">🍽️</span><span>Food Processing</span></div>
-    <div class="ind-card"><span class="ind-ic">🛢️</span><span>Oil &amp; Gas</span></div>
-    <div class="ind-card"><span class="ind-ic">🧵</span><span>Textile</span></div>
-    <div class="ind-card"><span class="ind-ic">🏗️</span><span>Construction</span></div>
-    <div class="ind-card"><span class="ind-ic">📄</span><span>Paper &amp; Pulp</span></div>
-    <div class="ind-card"><span class="ind-ic">🚗</span><span>Automobile</span></div>
-    <div class="ind-card"><span class="ind-ic">⚡</span><span>Power Generation</span></div>
-    <div class="ind-card"><span class="ind-ic">🌾</span><span>Agriculture</span></div>
-  </div>
-</section>
-
-<!-- REVIEWS -->
-<section class="reviews">
-  <div class="sec-header">
-    <h2>Customer Reviews</h2>
-    <p>What our clients say about us.</p>
-  </div>
-  <div class="rev-grid">
-    <div class="rev-card">
-      <div class="rev-stars">★★★★★</div>
-      <p class="rev-text">Best prices with excellent quality wire mesh. Quick supply and very responsive on calls. Highly recommended for all wire mesh requirements in Ahmedabad.</p>
-      <div class="rev-author">
-        <div class="rev-av">RK</div>
-        <div><div class="rev-name">Rajesh Kumar</div><div class="rev-loc">Plastic Industry, Ahmedabad</div></div>
-      </div>
-    </div>
-    <div class="rev-card">
-      <div class="rev-stars">★★★★★</div>
-      <p class="rev-text">Very good quality SS wire mesh at a reasonable rate. Prompt dispatch and all products were as per the specifications provided. Will definitely order again.</p>
-      <div class="rev-author">
-        <div class="rev-av">SP</div>
-        <div><div class="rev-name">Suresh Patel</div><div class="rev-loc">Chemical Plant, Vadodara</div></div>
-      </div>
-    </div>
-    <div class="rev-card">
-      <div class="rev-stars">★★★★★</div>
-      <p class="rev-text">Good quality products and excellent service. We have been sourcing perforated sheets and bearings from them for years. Always reliable and competitive on pricing.</p>
-      <div class="rev-author">
-        <div class="rev-av">MJ</div>
-        <div><div class="rev-name">Mahesh Joshi</div><div class="rev-loc">Engineering Works, Surat</div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section class="contact" id="contact">
-  <div class="sec-header">
-    <h2>Contact Us</h2>
-    <p>Get in touch for product enquiries, pricing or any other information.</p>
-  </div>
-  <div class="contact-wrap">
-    <div class="contact-info">
-      <h3>Mukesh Trading Co.</h3>
-      <div class="c-item">
-        <div class="c-ic">📍</div>
-        <div>
-          <label>Address</label>
-          <span>G-4, Abhishak Industrial Estate,<br>Opp. Haripura Bus Stand, Civil Road,<br>Asarwa, Ahmedabad – 380 016, Gujarat</span>
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#" class="logo" id="header-logo">
+                <span class="logo-m">M</span>
+                <span class="logo-text">MUKESH <span class="thin">TRADING</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#legacy" class="nav-link">Our Legacy</a></li>
+                    <li><a href="#offerings" class="nav-link">Offerings</a></li>
+                    <li><a href="#showcase" class="nav-link">Showcase</a></li>
+                    <li><a href="#contact" class="nav-link">Find Us</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="#contact" class="btn-minimal">Get in Touch</a>
+                <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
         </div>
-      </div>
-      <div class="c-item">
-        <div class="c-ic">📞</div>
-        <div>
-          <label>Phone</label>
-          <a href="tel:02122138155">(079) 2213 8155</a><br>
-          <a href="tel:+919879211012">+91 98792 11012</a><br>
-          <a href="tel:+919429356522">+91 94293 56522</a><br>
-          <a href="tel:+919824315694">+91 98243 15694</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-accent"></div>
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="tagline" id="hero-tag">ESTABLISHED 1975</span>
+                <h1 id="hero-title">Trading Excellence. <br><span class="serif-italic">Customer-Centric</span> by Philosophy.</h1>
+                <p class="hero-description" id="hero-desc">
+                    For half a century, Mukesh Trading Complex has been a trusted benchmark of B2B trading in Ahmedabad. We specialize in seamless wholesale sourcing and supply chains built entirely around long-term trust.
+                </p>
+                <div class="hero-actions-group">
+                    <a href="#offerings" class="btn-premium">Explore Solutions</a>
+                    <a href="#legacy" class="btn-text">Read Our Story <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">1975</span>
+                        <span class="stat-label">Inception</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">50+</span>
+                        <span class="stat-label">Years Legacy</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-label">B2B Centricity</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image-wrapper">
+                <div class="image-reveal-mask">
+                    <img src="assets/trading_complex_interior.png" alt="Mukesh Trading Complex Premium Interior Office" class="hero-img">
+                </div>
+                <div class="image-badge">
+                    <span class="badge-title">AHMEDABAD</span>
+                    <span class="badge-subtitle">Gujarat, India</span>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="c-item">
-        <div class="c-ic">✉</div>
-        <div>
-          <label>Email</label>
-          <a href="mailto:mukeshtr16@yahoo.com">mukeshtr16@yahoo.com</a>
+    </section>
+
+    <!-- Legacy Section -->
+    <section id="legacy" class="legacy-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">A FIFTY YEAR JOURNEY</span>
+                <h2>The Standard of Quality and Trust</h2>
+            </div>
+            
+            <div class="legacy-grid">
+                <div class="legacy-text-block">
+                    <p class="lead">
+                        Customer centricity is not just a policy for Mukesh Trading Complex—it is our absolute core. Over the decades, we have fostered enduring partnerships by delivering top-notch products and high-grade services.
+                    </p>
+                    <p>
+                        Coming into existence in 1975, our establishment has navigated changing market landscapes while keeping our foundational values constant. We strive to create positive and productive commercial experiences for enterprises of all scales, utilizing a highly professional workflow designed to make complex B2B sourcing completely seamless.
+                    </p>
+                    <div class="quote-box">
+                        <blockquote>
+                            "We believe in building long-term business relationships through quality guarantees, honest transactions, and absolute customer centricity."
+                        </blockquote>
+                        <cite>— Directors, Mukesh Trading Complex</cite>
+                    </div>
+                </div>
+                
+                <div class="legacy-feature-cards">
+                    <div class="feature-card">
+                        <div class="card-icon"><i class="fa-solid fa-handshake"></i></div>
+                        <h3>Deep Trust</h3>
+                        <p>Over 5 decades of continuous client relationships and market prestige in Gujarat.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-icon"><i class="fa-solid fa-award"></i></div>
+                        <h3>Top-Notch Quality</h3>
+                        <p>Rigorous quality controls ensure that every product catalogued meets industry benchmarks.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-icon"><i class="fa-solid fa-credit-card"></i></div>
+                        <h3>Seamless Transactions</h3>
+                        <p>Flexible business terms accepting standard payments like Cash and Cheques for effortless procurement.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="c-item">
-        <div class="c-ic">🌐</div>
-        <div>
-          <label>Website</label>
-          <a href="http://www.mukeshtradingco.in" target="_blank">www.mukeshtradingco.in</a>
+    </section>
+
+    <!-- Offerings Section -->
+    <section id="offerings" class="offerings-section">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-tag">WHAT WE DO</span>
+                <h2>Core B2B Sourcing & Trading Capabilities</h2>
+                <p class="section-subtitle">Empowering enterprises with reliable volume sourcing and optimized supply chains.</p>
+            </div>
+            
+            <div class="offerings-grid">
+                <div class="offering-box">
+                    <div class="offering-header">
+                        <span class="offering-num">01</span>
+                        <h3>B2B Wholesale Supply</h3>
+                    </div>
+                    <p>Optimized distribution of industrial materials and commercial commodities in high volumes to manufacturers, dealers, and retail channels.</p>
+                    <ul class="offering-list">
+                        <li><i class="fa-solid fa-check"></i> Bulk inventory management</li>
+                        <li><i class="fa-solid fa-check"></i> Reliable lead times</li>
+                        <li><i class="fa-solid fa-check"></i> Consistent supply pipelines</li>
+                    </ul>
+                </div>
+                
+                <div class="offering-box">
+                    <div class="offering-header">
+                        <span class="offering-num">02</span>
+                        <h3>Custom Procurement</h3>
+                    </div>
+                    <p>Tailored material sourcing mapped specifically to individual client specifications. We handle complex logistics so you don't have to.</p>
+                    <ul class="offering-list">
+                        <li><i class="fa-solid fa-check"></i> Niche product tracking</li>
+                        <li><i class="fa-solid fa-check"></i> Manufacturer direct negotiation</li>
+                        <li><i class="fa-solid fa-check"></i> Quality verification audits</li>
+                    </ul>
+                </div>
+                
+                <div class="offering-box">
+                    <div class="offering-header">
+                        <span class="offering-num">03</span>
+                        <h3>Industrial Solutions</h3>
+                    </div>
+                    <p>Acting as a vital bridge in India's leading B2B marketplace to provide SMEs and large businesses with direct digital product catalogs and streamlined procurement.</p>
+                    <ul class="offering-list">
+                        <li><i class="fa-solid fa-check"></i> Streamlined digital cataloging</li>
+                        <li><i class="fa-solid fa-check"></i> SME and Enterprise assistance</li>
+                        <li><i class="fa-solid fa-check"></i> Integrated logistics support</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-      <a href="https://wa.me/919879211012" class="wa-btn" target="_blank">💬 &nbsp;Chat on WhatsApp</a>
+    </section>
+
+    <!-- Showcase / Gallery Section -->
+    <section id="showcase" class="showcase-section">
+        <div class="container">
+            <div class="showcase-header-row">
+                <div class="section-header">
+                    <span class="section-tag">OUR FACILITIES</span>
+                    <h2>Mukesh Trading Complex Showcase</h2>
+                </div>
+                <div class="gallery-filters" id="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All Assets</button>
+                    <button class="filter-btn" data-filter="facade">Architecture</button>
+                    <button class="filter-btn" data-filter="interior">Offices</button>
+                    <button class="filter-btn" data-filter="logistics">Logistics</button>
+                </div>
+            </div>
+            
+            <div class="showcase-grid" id="showcase-grid">
+                <div class="showcase-item facade">
+                    <div class="showcase-image-container">
+                        <img src="assets/trading_complex_exterior.png" alt="Mukesh Trading Complex Facade Asarwa" class="gallery-img">
+                        <div class="showcase-overlay">
+                            <span class="category">ARCHITECTURAL FACADE</span>
+                            <h3>Mukesh Trading Complex</h3>
+                            <p>Located prominently in Asarwa, Ahmedabad</p>
+                            <a href="assets/trading_complex_exterior.png" class="lightbox-trigger"><i class="fa-solid fa-expand"></i> View Large</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="showcase-item interior">
+                    <div class="showcase-image-container">
+                        <img src="assets/trading_complex_interior.png" alt="Mukesh Trading Office Showroom" class="gallery-img">
+                        <div class="showcase-overlay">
+                            <span class="category">EXECUTIVE OFFICE & SHOWROOM</span>
+                            <h3>Trading Headquarters</h3>
+                            <p>Sleek and professional business interior</p>
+                            <a href="assets/trading_complex_interior.png" class="lightbox-trigger"><i class="fa-solid fa-expand"></i> View Large</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showcase-item logistics">
+                    <div class="showcase-image-container">
+                        <div class="mock-image-fallback gradient-gray">
+                            <div class="fallback-content">
+                                <i class="fa-solid fa-truck-ramp-box icon-large"></i>
+                                <span>Advanced Warehousing</span>
+                            </div>
+                        </div>
+                        <div class="showcase-overlay">
+                            <span class="category">LOGISTICS HUBS</span>
+                            <h3>Supply Chain Warehouses</h3>
+                            <p>Robust logistics pipeline matching high volume loads</p>
+                            <a href="#" class="lightbox-trigger-disabled"><i class="fa-solid fa-lock"></i> Digital Vault</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact Section (Local SEO Focus) -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">VISIT OUR COMPLEX</span>
+                    <h2>Locate & Connect</h2>
+                    <p class="contact-intro">
+                        For any trade inquiries, material quotes, or enterprise consultations, visit our complex in Asarwa or fill out our priority contact form.
+                    </p>
+                    
+                    <div class="info-blocks">
+                        <div class="info-block">
+                            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="info-text">
+                                <h4>Office Address</h4>
+                                <p>J/4, Abhishak Industrial Estate,<br>Opposite Haripur Bus Stand, Civil Road,<br>Asarwa, Ahmedabad - 380016</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-block highlight-block">
+                            <div class="info-icon"><i class="fa-solid fa-map-pin"></i></div>
+                            <div class="info-text">
+                                <h4>Key Landmark</h4>
+                                <p>Opposite Haripur Bus Stand (Prominent Landmark in Asarwa)</p>
+                            </div>
+                        </div>
+
+                        <div class="info-block">
+                            <div class="info-icon"><i class="fa-solid fa-wallet"></i></div>
+                            <div class="info-text">
+                                <h4>Accepted Payment Modes</h4>
+                                <p>Cash, Bank Cheques</p>
+                            </div>
+                        </div>
+
+                        <div class="info-block">
+                            <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+                            <div class="info-text">
+                                <h4>Working Hours</h4>
+                                <p>Mon - Sat: 9:00 AM - 7:00 PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <div class="form-wrapper">
+                        <h3>Submit Trade Inquiry</h3>
+                        <p class="form-sub">Direct access to our corporate procurement desk.</p>
+                        
+                        <form id="trade-inquiry-form" novalidate>
+                            <div class="form-group">
+                                <label for="name">Your Name / Organization</label>
+                                <input type="text" id="name" name="name" required placeholder="e.g., Zenith Enterprises">
+                                <span class="error-msg">Please enter your name or company name.</span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Business Email Address</label>
+                                <input type="email" id="email" name="email" required placeholder="e.g., procurement@zenith.com">
+                                <span class="error-msg">Please enter a valid email address.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="e.g., +91 98765 43210">
+                                <span class="error-msg">Please enter a valid phone number.</span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Material / Sourcing Requirements</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Please describe the quantities or categories of goods you wish to source..."></textarea>
+                                <span class="error-msg">Please outline your trade requirements.</span>
+                            </div>
+                            
+                            <button type="submit" class="btn-submit">
+                                <span>Transmit Inquiry</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        
+                        <div class="form-success-alert" id="form-success">
+                            <div class="success-icon"><i class="fa-solid fa-circle-check"></i></div>
+                            <h4>Inquiry Successfully Transmitted</h4>
+                            <p>Our corporate desk will review your specifications and contact you within 24 hours.</p>
+                            <button class="btn-reset" id="btn-reset-form">Send another message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Mock Interactive Google Map with Sleek Dark styling -->
+            <div class="map-wrapper">
+                <div class="map-overlay-card">
+                    <i class="fa-solid fa-map-location-dot map-card-icon"></i>
+                    <div>
+                        <h5>Location Coordinates</h5>
+                        <p class="coords">23.0409° N, 72.6014° E (Asarwa)</p>
+                        <span class="directions-link"><i class="fa-solid fa-location-arrow"></i> Open in Google Maps</span>
+                    </div>
+                </div>
+                <div class="mock-map" id="map">
+                    <div class="map-grid-pattern"></div>
+                    <div class="map-marker animated-marker">
+                        <div class="pin"></div>
+                        <div class="pulse"></div>
+                    </div>
+                    <span class="map-label">MUKESH TRADING COMPLEX</span>
+                    <span class="map-landmark-label">Opposite Haripur Bus Stand</span>
+                    <div class="map-instructions">Interactive Minimalist Map Mockup</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-m">M</span>
+                    <span class="logo-text">MUKESH <span class="thin">TRADING</span></span>
+                </a>
+                <p class="footer-moto">Establishing premium supply lines, quality guarantees, and client relationships across Gujarat since 1975.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#legacy">Our Legacy</a></li>
+                    <li><a href="#offerings">Solutions</a></li>
+                    <li><a href="#showcase">Showcase</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Corporate Desk</h4>
+                <p><i class="fa-solid fa-location-dot"></i> J/4, Abhishak Industrial Estate, Asarwa, Ahmedabad - 380016</p>
+                <p><i class="fa-solid fa-envelope"></i> contact@mukeshtrading.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 79 2200 4567</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container bottom-flex">
+                <p>&copy; 2026 Mukesh Trading Complex. All rights reserved.</p>
+                <p>Designed Premium | Optimized for Local Search</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fullscreen Lightbox Modal -->
+    <div class="lightbox-modal" id="lightbox">
+        <span class="close-lightbox" id="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
     </div>
-    <div class="cform">
-      <h3>Send an Enquiry</h3>
-      <div class="frow">
-        <div class="fg"><label>Your Name *</label><input type="text" placeholder="Full name"></div>
-        <div class="fg"><label>Company</label><input type="text" placeholder="Company / firm name"></div>
-      </div>
-      <div class="frow">
-        <div class="fg"><label>Phone *</label><input type="tel" placeholder="+91 00000 00000"></div>
-        <div class="fg"><label>Email</label><input type="email" placeholder="your@email.com"></div>
-      </div>
-      <div class="fg">
-        <label>Product Required</label>
-        <select>
-          <option value="">Select a product</option>
-          <option>SS Wire Mesh Jali</option>
-          <option>Metal Perforated Sheet</option>
-          <option>Welded Wire Mesh</option>
-          <option>Crimped Wire Mesh</option>
-          <option>Expanded Metals</option>
-          <option>Bearings</option>
-          <option>CI Pulleys</option>
-          <option>Pedestals / Plummer Blocks</option>
-          <option>Industrial Buckets</option>
-          <option>Other</option>
-        </select>
-      </div>
-      <div class="fg">
-        <label>Your Requirement</label>
-        <textarea placeholder="Describe your requirement — material grade, mesh size, dimensions, quantity, etc."></textarea>
-      </div>
-      <button class="btn-submit" onclick="alert('Thank you for your enquiry! We will get back to you shortly.')">Submit Enquiry</button>
-    </div>
-  </div>
-</section>
 
-<!-- MAP -->
-<div class="map-wrap">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.0!2d72.607!3d23.050!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f0b2d96011%3A0xfcb4f8d3d9e3b3a0!2sAsarwa%2C+Ahmedabad%2C+Gujarat!5e0!3m2!1sen!2sin!4v1"
-    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</div>
+    <!-- Embedded JavaScript Interactions -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-top">
-    <div class="footer-brand">
-      <div class="logo-name">
-        <strong>Mukesh Trading Co.</strong>
-        <small>Wire Mesh &amp; Industrial Stockist</small>
-      </div>
-      <p>Stockist &amp; supplier of SS Wire Mesh, Metal Perforated Sheets, Bearings, CI Pulleys and industrial components — serving Gujarat since decades from Asarwa, Ahmedabad.</p>
-    </div>
-    <div class="footer-col">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#industries">Industries</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h4>Contact Info</h4>
-      <address>
-        G-4, Abhishak Industrial Estate,<br>
-        Opp. Haripura Bus Stand,<br>
-        Civil Road, Asarwa,<br>
-        Ahmedabad – 380 016, Gujarat<br><br>
-        <a href="tel:+919879211012">+91 98792 11012</a><br>
-        <a href="tel:+919429356522">+91 94293 56522</a><br>
-        <a href="mailto:mukeshtr16@yahoo.com">mukeshtr16@yahoo.com</a>
-      </address>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>© 2025 Mukesh Trading Co. All Rights Reserved. &nbsp;|&nbsp; Asarwa, Ahmedabad, Gujarat, India</p>
-  </div>
-</footer>
+            /* ==========================================
+               1. Custom Cursor Interactions
+               ========================================== */
+            const cursor = document.querySelector('.custom-cursor');
+            const follower = document.querySelector('.custom-cursor-follower');
+            
+            const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+            
+            if (!isTouchDevice && cursor && follower) {
+                document.addEventListener('mousemove', (e) => {
+                    cursor.style.left = e.clientX + 'px';
+                    cursor.style.top = e.clientY + 'px';
+                    follower.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0) translate(-50%, -50%)`;
+                });
 
-<!-- Scroll to Top -->
-<button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+                const interactiveElements = document.querySelectorAll('a, button, .filter-btn, input, textarea, .showcase-item, .directions-link');
+                interactiveElements.forEach(el => {
+                    el.addEventListener('mouseenter', () => {
+                        cursor.style.width = '20px';
+                        cursor.style.height = '20px';
+                        cursor.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+                        follower.style.width = '48px';
+                        follower.style.height = '48px';
+                        follower.style.borderColor = '#ffffff';
+                        follower.style.backgroundColor = 'rgba(255, 255, 255, 0.03)';
+                    });
+                    el.addEventListener('mouseleave', () => {
+                        cursor.style.width = '8px';
+                        cursor.style.height = '8px';
+                        cursor.style.backgroundColor = '#ffffff';
+                        follower.style.width = '32px';
+                        follower.style.height = '32px';
+                        follower.style.borderColor = 'rgba(255, 255, 255, 0.3)';
+                        follower.style.backgroundColor = 'transparent';
+                    });
+                });
+            } else {
+                if(cursor) cursor.style.display = 'none';
+                if(follower) follower.style.display = 'none';
+            }
 
-<script>
-// Slider
-let cur = 0;
-const slides = document.getElementById('slides');
-const dotsEl = document.getElementById('dots');
-const total = document.querySelectorAll('.slide').length;
 
-for(let i=0;i<total;i++){
-  const d = document.createElement('div');
-  d.className = 'dot' + (i===0?' active':'');
-  d.onclick = ()=>goTo(i);
-  dotsEl.appendChild(d);
-}
+            /* ==========================================
+               2. Dynamic Header state on Scroll
+               ========================================== */
+            const header = document.querySelector('.main-header');
+            
+            const handleScroll = () => {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            };
+            
+            window.addEventListener('scroll', handleScroll);
+            handleScroll();
 
-function goTo(n){
-  cur = (n+total)%total;
-  slides.style.transform = `translateX(-${cur*100}%)`;
-  document.querySelectorAll('.dot').forEach((d,i)=>d.classList.toggle('active',i===cur));
-}
-function moveSlide(dir){goTo(cur+dir);}
-setInterval(()=>moveSlide(1), 5000);
 
-// Scroll to top
-window.onscroll = ()=>{
-  document.getElementById('scrollTop').classList.toggle('show', window.scrollY > 400);
-};
+            /* ==========================================
+               3. Mobile Navigation Menu Toggle
+               ========================================== */
+            const mobileToggle = document.getElementById('mobile-toggle');
+            const navMenu = document.getElementById('nav-menu');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            if (mobileToggle && navMenu) {
+                mobileToggle.addEventListener('click', () => {
+                    mobileToggle.classList.toggle('active');
+                    navMenu.classList.toggle('open');
+                });
+                
+                navLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileToggle.classList.remove('active');
+                        navMenu.classList.remove('open');
+                    });
+                });
+            }
 
-// Active nav on scroll
-const sections = document.querySelectorAll('section[id], div[id]');
-window.addEventListener('scroll', ()=>{
-  let pos = window.scrollY + 120;
-  sections.forEach(s=>{
-    if(pos >= s.offsetTop && pos < s.offsetTop + s.offsetHeight){
-      document.querySelectorAll('.nav-menu a').forEach(a=>{
-        a.classList.toggle('active', a.getAttribute('href')==='#'+s.id);
-      });
-    }
-  });
-});
-</script>
+
+            /* ==========================================
+               4. Showcase Gallery Portfolio Filters
+               ========================================== */
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const showcaseItems = document.querySelectorAll('.showcase-item');
+            
+            filterButtons.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    filterButtons.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    
+                    const filterValue = btn.getAttribute('data-filter');
+                    
+                    showcaseItems.forEach(item => {
+                        if (filterValue === 'all') {
+                            item.classList.remove('hide');
+                            item.style.opacity = '0';
+                            setTimeout(() => item.style.opacity = '1', 50);
+                        } else {
+                            if (item.classList.contains(filterValue)) {
+                                item.classList.remove('hide');
+                                item.style.opacity = '0';
+                                setTimeout(() => item.style.opacity = '1', 50);
+                            } else {
+                                item.classList.add('hide');
+                            }
+                        }
+                    });
+                });
+            });
+
+
+            /* ==========================================
+               5. Fullscreen Lightbox Modal
+               ========================================== */
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const lightboxCaption = document.getElementById('lightbox-caption');
+            const closeLightbox = document.getElementById('close-lightbox');
+            const triggers = document.querySelectorAll('.lightbox-trigger');
+            
+            if (lightbox && lightboxImg && lightboxCaption && closeLightbox) {
+                triggers.forEach(trigger => {
+                    trigger.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const imgSrc = trigger.getAttribute('href');
+                        const card = trigger.closest('.showcase-item');
+                        const altText = card ? card.querySelector('.gallery-img').getAttribute('alt') : 'Showcase view';
+                        const titleText = card ? card.querySelector('h3').innerText : '';
+                        
+                        lightboxImg.src = imgSrc;
+                        lightboxCaption.innerText = titleText ? `${titleText} — ${altText}` : altText;
+                        lightbox.style.display = 'block';
+                        document.body.style.overflow = 'hidden';
+                    });
+                });
+                
+                const closeLightboxModal = () => {
+                    lightbox.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                };
+                
+                closeLightbox.addEventListener('click', closeLightboxModal);
+                
+                lightbox.addEventListener('click', (e) => {
+                    if (e.target === lightbox) {
+                        closeLightboxModal();
+                    }
+                });
+                
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape' && lightbox.style.display === 'block') {
+                        closeLightboxModal();
+                    }
+                });
+            }
+
+
+            /* ==========================================
+               6. Contact Form Sourcing Inquiry Validation
+               ========================================== */
+            const form = document.getElementById('trade-inquiry-form');
+            const successAlert = document.getElementById('form-success');
+            const btnReset = document.getElementById('btn-reset-form');
+            
+            if (form && successAlert) {
+                form.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    
+                    const inputs = form.querySelectorAll('input[required], textarea[required]');
+                    let isFormValid = true;
+                    
+                    inputs.forEach(input => {
+                        const formGroup = input.closest('.form-group');
+                        let isInputValid = true;
+                        
+                        if (!input.value.trim()) {
+                            isInputValid = false;
+                        } else if (input.type === 'email') {
+                            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                            isInputValid = emailRegex.test(input.value.trim());
+                        }
+                        
+                        if (isInputValid) {
+                            formGroup.classList.remove('error');
+                        } else {
+                            formGroup.classList.add('error');
+                            isFormValid = false;
+                        }
+                    });
+                    
+                    if (isFormValid) {
+                        const submitBtn = form.querySelector('.btn-submit');
+                        const originalText = submitBtn.innerHTML;
+                        
+                        submitBtn.disabled = true;
+                        submitBtn.innerHTML = '<span>Transmitting Sourcing Request...</span> <i class="fa-solid fa-spinner fa-spin"></i>';
+                        
+                        setTimeout(() => {
+                            successAlert.classList.add('show');
+                            submitBtn.disabled = false;
+                            submitBtn.innerHTML = originalText;
+                            form.reset();
+                        }, 1500);
+                    }
+                });
+                
+                if (btnReset) {
+                    btnReset.addEventListener('click', () => {
+                        successAlert.classList.remove('show');
+                    });
+                }
+            }
+
+
+            /* ==========================================
+               7. Scroll Navigation Indicator (ScrollSpy)
+               ========================================== */
+            const sections = document.querySelectorAll('section');
+            
+            const activeScrollSpy = () => {
+                let currentSectionId = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+                    if (window.scrollY >= (sectionTop - 120)) {
+                        currentSectionId = section.getAttribute('id');
+                    }
+                });
+                
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${currentSectionId}`) {
+                        link.classList.add('active');
+                    }
+                });
+            };
+            
+            window.addEventListener('scroll', activeScrollSpy);
+            activeScrollSpy();
+
+        });
+    </script>
 </body>
 </html>
